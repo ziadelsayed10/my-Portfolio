@@ -7,7 +7,7 @@ import { fadeIn } from '../../framerMotion/variants';
 import { FaFacebookSquare } from 'react-icons/fa';
 
 function Hero() {
-    const fileUrl = "/public/photo/ZiadElsayedcv.pdf" 
+    const fileUrl = "/photo/ZiadElsayedcv.pdf" 
 
   return (
     <>
