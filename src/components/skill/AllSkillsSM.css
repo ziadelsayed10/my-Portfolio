@@ -1,0 +1,37 @@
+.allskill-sm-par{
+ display: grid;
+  gap: 48px; 
+  margin-top: 48px;
+  margin-bottom: 48px;
+    grid-template-columns: repeat(2, 1fr);
+
+} 
+
+/* @media (max-width: 640px) {
+  .allskill-sm-par {
+    grid-template-columns: repeat(2, 1fr);
+  }
+} */
+
+
+/* @media (max-width: 768px) {
+  .allskill-sm-par{
+    grid-template-columns: repeat(4, 1fr);
+  }
+} */
+
+.allskill-sm-mot{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.allskill-sm-item{
+    font-size: 70px;
+    color: orange;
+}
+
+.allskill-sm-text{
+    text-align: center;
+    margin-top: 16px;
+}

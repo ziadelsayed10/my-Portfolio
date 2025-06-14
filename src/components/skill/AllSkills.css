@@ -1,0 +1,9 @@
+.allskill-par{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    gap: 4px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
