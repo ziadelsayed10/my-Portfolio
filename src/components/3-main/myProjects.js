@@ -20,7 +20,7 @@ export const myProjects2 = [
       projectTitle: "El Salam",
       category: ["js"],
       imgPath: "./Photo/elsalam2.webp",
-      demo :"https://mediumslateblue-gnat-876470.hostingersite.com/",
+      demo :"https://al-salam.shop/",
       github :"https://github.com/Adham901/CRUD",
     },
 
