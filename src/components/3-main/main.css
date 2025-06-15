@@ -73,7 +73,7 @@ border: 1px solid #000;
 }
 .card:hover{
     border: 1px solid var(--blue);
-    cursor: pointer;
+    /* cursor: pointer; */
     rotate: 1deg;
     scale: 1.01;
 }
@@ -121,7 +121,11 @@ justify-content: center;
     color: var(--blue);
     margin-right: 12px;
 }
-
+.disabled-link {
+  opacity: 0.4;
+  cursor: not-allowed;
+  pointer-events: none; /* يمنع أي تفاعل */
+}
 
 /* responsive design   */
 

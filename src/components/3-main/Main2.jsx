@@ -76,8 +76,13 @@ const Main2 = () => {
 
                   <div className="flex icons">
                     <div style={{ gap: "210px" }} className="flex">
-                       <a href={item.demo} target="_blank"><div className="icon-link"></div></a>
-                       <a href={item.github}><div className="icon-github"></div></a>
+{item.demo ? (
+  <a href={item.demo} target="_blank" rel="noopener noreferrer">
+    <div className="icon-link"></div>
+  </a>
+) : (
+  <div className="icon-link disabled-link"></div>
+)}                       <a href={item.github}><div className="icon-github"></div></a>
                     </div>
 
                     
