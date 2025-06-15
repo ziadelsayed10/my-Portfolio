@@ -41,6 +41,7 @@ header.flex nav{
     padding: 0.77rem 1.6rem;
     border-radius: 55px;
     box-shadow: 1px 1px  40px #2323242a;
+    max-width: 222px;     
 }
 
 
@@ -119,14 +120,11 @@ ul.model li{
 
 ul.model li a{
     color: var(--blue);
+     font-size: 1rem;
 }
 
 ul.model li:last-child{
     border: none;
-}
-
-ul.model li a{
-    font-size: 1rem;
 }
 
 
@@ -160,27 +158,3 @@ header button.menu{
 
 
 
-/* flex lg:hidden sm:block p-6 bg-black items-center justify-center rounded-full  border-orange border-[0.5px] */
-.toggle-btn-par{
-    display: none;    
-}
-@media (max-width:500px){
-    .toggle-btn-par{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border-radius: 50%;
-        border: 0.5px solid orange;
-
-        padding: 24px;
-    }
-}
-
-
-
-.nav-bar-btn{
-    font-size: 20px;
-    padding: 12px;
-    border: 1px solid orange;
-    border-radius: 50%;
-}

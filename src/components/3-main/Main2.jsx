@@ -31,7 +31,7 @@ const Main2 = () => {
           }}
           className={currentActive === "all" ? "active" : null}
         >
-          All Projects
+          All - Projects
         </button>
 
     
@@ -56,7 +56,7 @@ const Main2 = () => {
       </section>
 
       <section className=" flex right-section">
-        <AnimatePresence>
+        {/* <AnimatePresence> */}
           {arr.map((item) => {
             return (
               <motion.article
@@ -64,6 +64,7 @@ const Main2 = () => {
                 initial={{ transform: "scale(0.4)" }}
                 animate={{ transform: "scale(1)" }}
                 transition={{ type: "spring", damping: 8, stiffness: 50 }}
+                
                 key={item.imgPath}
                 className="  card"
               >
@@ -85,7 +86,7 @@ const Main2 = () => {
               </motion.article>
             );
           })}
-        </AnimatePresence>
+        {/* </AnimatePresence> */}
       </section>
     </main>
   );

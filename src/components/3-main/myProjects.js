@@ -51,7 +51,7 @@ export const myProjects2 = [
       github :"https://github.com/ziadelsayed10/cataComm",
     },
     {
-      projectTitle: "Full E-Commerce & backendFile",
+      projectTitle: "F E-Commerce & backendF",
       category: ["react"],
       imgPath: "./Photo/filter.webp",
       // demo :"",

@@ -4,7 +4,7 @@ import Lottie from 'lottie-react';
 import devAnimation from '../../animation/dev.json'
 import { motion } from 'framer-motion';
 import { fadeIn } from '../../framerMotion/variants';
-import { FaFacebookSquare } from 'react-icons/fa';
+// import { FaFacebookSquare } from 'react-icons/fa';
 
 function Hero() {
     const fileUrl = "/photo/ZiadElsayedcv.pdf" 

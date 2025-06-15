@@ -161,10 +161,11 @@ border: 1px solid #ffffff44;
     padding: 0 var(--container-padding);
   }
 
-  .divider{
+  /* .divider{
     border-bottom: solid 1px var(--border);
     margin: 3rem 0;
     width: calc(100% + var(--container-padding) + var(--container-padding) );
     margin-left: calc(var(--container-padding)*-1);
-  }
+  } */
+  
 }
